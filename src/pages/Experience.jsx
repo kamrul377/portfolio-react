@@ -71,7 +71,7 @@ const Experience = () => {
 
                     {
                         icons.map((icon, i) => (
-                            <div key={i} className={`skil w-[80%] h-[320px] ${icon.style} flex justify-center items-center rounded shadow-md  p-2 hover:cursor-pointer`}>
+                            <div key={i} className={`skil w-[70%] sm:w-[80%] h-[320px] ${icon.style} flex justify-center items-center rounded shadow-md  p-2 hover:cursor-pointer box-border`}>
                                 <img src={icon.icon} alt="" />
 
                             </div>

@@ -9,7 +9,7 @@ import Experience from './pages/Experience'
 
 const App = () => {
   return (
-    <div>
+    <div className='overflow-x-hidden'>
       <Navbar />
       <Home />
       <SocialLinks />
