@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import {Link} from 'react-scroll'
+import { Link } from 'react-scroll'
 import { FaBars, FaTimes } from 'react-icons/fa'
 
 const Navbar = () => {
@@ -54,7 +54,8 @@ const Navbar = () => {
                 <ul className='text-white flex flex-col gap-5'>
                     {tabs && tabs.map((i, index) => {
                         return <li className='text-gray-400 px-4 hover:cursor-pointer hover:scale-105 duration-200 text-center text-2xl'>
-                            <Link to=''> {i.link} </Link>
+
+                            <Link to={i.link} onClick={()=> setOpen(false)}> {i.link} </Link>
                         </li>
                     })}
                 </ul>

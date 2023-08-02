@@ -6,7 +6,7 @@ import { MdKeyboardDoubleArrowRight } from 'react-icons/md';
 
 const Home = () => {
     return (
-        <div className='bg-gradient-to-b from-black pt-24 md:pt-0 to-gray-800 w-full md:h-screen py-4'>
+        <div className='bg-gradient-to-b from-black pt-24 md:pt-0 to-gray-800 w-full md:h-screen py-4' name="Home">
             <div className="container sm:text-center md:text-left md:flex justify-between items-center h-full gap-4">
                 <div className="content basis-1/2 flex flex-col gap-6">
 
@@ -42,7 +42,7 @@ const Home = () => {
 
                 </div>
                 <div className="my-image basis-1/3 sm:mx-auto md:basis-1/2 w-[100%] sm:w-[60%] md:w-full text-center mt-6 md:mt-0">
-                    <img src={profileImg} alt="kamrul " className='border-[6px] rounded border-indigo-700 shadow cursor-pointer' />
+                    <img src={profileImg} alt="kamrul " className='border-[6px] rounded border-cyan-500 shadow cursor-pointer' />
                 </div>
             </div>
 
