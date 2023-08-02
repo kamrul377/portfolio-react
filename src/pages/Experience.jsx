@@ -63,16 +63,17 @@ const icons = [
 
 const Experience = () => {
     return (
-        <div className='w-full min-h-screen bg-black py-5'>
+        <div name="Experience" className='w-full min-h-screen bg-black py-5'>
             <div className="container">
                 <h1 className='text-6xl font-bold text-slate-200 border-b-4 border-gray-600 inline-block my-6'> Experience </h1>
 
-                <div className="skills grid md:grid-cols-2 lg:grid-cols-3 my-3 gap-2 gap-y-16 place-items-center">
+                <div className="skills grid sm:grid-cols-2 lg:grid-cols-3 my-3 gap-2 gap-y-16 place-items-center">
 
                     {
                         icons.map((icon, i) => (
                             <div key={i} className={`skil w-[80%] h-[320px] ${icon.style} flex justify-center items-center rounded shadow-md  p-2 hover:cursor-pointer`}>
                                 <img src={icon.icon} alt="" />
+
                             </div>
                         ))
                     }

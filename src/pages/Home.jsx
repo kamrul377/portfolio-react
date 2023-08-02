@@ -34,7 +34,7 @@ const Home = () => {
                     <p className='text-gray-500 text-base'> I have 2 years of exprience building and desgining software currently. I love to workon web application using technology like React, Tailwind, Next, Express</p>
 
                     <div className='sm:mx-auto md:ml-0'>
-                        <Link to='Portfolio' className='hover:cursor-pointer group text-white px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500'> Portfolio
+                        <Link to='Portfolio' className='hover:cursor-pointer group text-white px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500 w-fit'> Portfolio
                             <span className='group-hover:rotate-90 duration-300'>
                                 <MdKeyboardDoubleArrowRight size={25} className='ml-1' />
                             </span>

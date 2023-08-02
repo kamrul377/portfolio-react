@@ -40,7 +40,7 @@ const Navbar = () => {
             <ul className='flex'>
                 {
                     tabs.map((i, index) => {
-                        return <li className='text-gray-400 px-4 hover:cursor-pointer hover:scale-105 duration-200 hidden md:flex'>
+                        return <li key={index} className='text-gray-400 px-4 hover:cursor-pointer hover:scale-105 duration-200 hidden md:flex'>
                             <Link to={i.link} smooth duration={500}> {i.link} </Link>
                         </li>
                     })
