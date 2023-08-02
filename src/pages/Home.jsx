@@ -3,6 +3,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 import profileImg from '../assets/kamrul1.jpg'
 import { MdKeyboardDoubleArrowRight } from 'react-icons/md';
+import { Link } from 'react-scroll';
 
 const Home = () => {
     return (
@@ -20,10 +21,10 @@ const Home = () => {
                                 1000,
                                 "I'm Expert in Node,Express",
                                 1000,
-                                "I'm Expert in REST api",
+                                "I'm Expert in RESTful api",
                                 1000,
                             ]}
-                            speed={500}
+                            speed={150}
                             style={{ fontSize: '60px' }}
                             repeat={Infinity}
                             className='text-4xl md:text-6xl text-white font-bold'
@@ -33,11 +34,11 @@ const Home = () => {
                     <p className='text-gray-500 text-base'> I have 2 years of exprience building and desgining software currently. I love to workon web application using technology like React, Tailwind, Next, Express</p>
 
                     <div className='sm:mx-auto md:ml-0'>
-                        <button className='group text-white px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500'> Portfolio
+                        <Link to='Portfolio' className='hover:cursor-pointer group text-white px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500'> Portfolio
                             <span className='group-hover:rotate-90 duration-300'>
                                 <MdKeyboardDoubleArrowRight size={25} className='ml-1' />
                             </span>
-                        </button>
+                        </Link>
                     </div>
 
                 </div>
