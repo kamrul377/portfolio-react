@@ -67,7 +67,7 @@ const Experience = () => {
             <div className="container">
                 <h1 className='text-6xl font-bold text-slate-200 border-b-4 border-gray-600 inline-block my-6'> Experience </h1>
 
-                <div className="skills grid sm:grid-cols-2 lg:grid-cols-3 my-3 gap-2 gap-y-16 place-items-center">
+                <div data-aos="zoom-in-up" className="skills grid sm:grid-cols-2 lg:grid-cols-3 my-3 gap-2 gap-y-16 place-items-center">
 
                     {
                         icons.map((icon, i) => (

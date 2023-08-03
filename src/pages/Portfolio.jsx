@@ -52,7 +52,8 @@ const Portfolio = () => {
 
         <h1 className='text-6xl font-bold text-slate-200 border-b-4 border-gray-600 inline-block my-6'> Portfolio </h1>
 
-        <div className="projects grid sm:grid-cols-2 lg:grid-cols-3 my-3 gap-2 gap-y-16 place-items-center">
+        <div data-aos="fade-up"
+          data-aos-anchor-placement="top-center" className="projects grid sm:grid-cols-2 lg:grid-cols-3 my-3 gap-2 gap-y-16 place-items-center">
 
           {
             projects.map((project, i) => (
