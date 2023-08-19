@@ -10,6 +10,7 @@ import nodejslogo from '../assets/nodejs.png'
 import tailwindlogo from '../assets/tailwind.png'
 import expressjslogo from '../assets/express.png'
 
+
 const icons = [
     {
         id: 1,
