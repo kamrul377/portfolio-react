@@ -24,6 +24,8 @@ import python from '../assets/skills/py.png'
 import java from '../assets/skills/java.png'
 import figma from '../assets/skills/figma.png'
 import mongodb from '../assets/skills/mongodb.webp'
+import postman from '../assets/skills/postman.png'
+import next from '../assets/skills/nextjs.png'
 
 const skills = [
     {
@@ -124,7 +126,7 @@ const skills = [
     },
     {
         id: 17,
-        title: "redux js",
+        title: "redux",
         category: "frontend",
         icon: redux,
     },
@@ -151,6 +153,18 @@ const skills = [
         title: "java",
         category: "other",
         icon: java,
+    },
+    {
+        id: 22,
+        title: "postman",
+        category: "tools",
+        icon: postman,
+    },
+    {
+        id: 23,
+        title: "next",
+        category: "frontend",
+        icon: next,
     },
 ]
 
@@ -196,7 +210,7 @@ const Skills = () => {
 
                         {
                             active === 1 && frontend?.map((skill, index) => {
-                                return <div key={index} className="icon bg-[#121d27]  flex flex-col items-center justify-center gap-4 rounded shadow h-32 w-32 object-cover overflow-clip">
+                                return <div key={index} className="icon bg-[#121d277a]  flex flex-col items-center justify-center gap-4 rounded shadow h-32 w-32 object-cover overflow-clip">
                                     <img className='object-cover h-16' src={skill.icon} alt={html} />
                                     <p className='text-slate-500 font-bold text-sm'>{skill.title}</p>
                                 </div>
@@ -204,7 +218,7 @@ const Skills = () => {
                         }
                         {
                             active === 2 && backend?.map((skill, index) => {
-                                return <div key={index} className="icon bg-[#121d27]  flex flex-col items-center justify-center gap-4 rounded shadow h-32 w-32 object-cover overflow-clip">
+                                return <div key={index} className="icon bg-[#121d277a]  flex flex-col items-center justify-center gap-4 rounded shadow h-32 w-32 object-cover overflow-clip">
                                     <img className='object-cover h-16' src={skill.icon} alt={html} />
                                     <p className='text-slate-500 font-bold text-sm'>{skill.title}</p>
                                 </div>
@@ -212,7 +226,7 @@ const Skills = () => {
                         }
                         {
                             active === 3 && tools?.map((skill, index) => {
-                                return <div key={index} className="icon bg-[#121d27]  flex flex-col items-center justify-center gap-4 rounded shadow h-32 w-32 object-cover overflow-clip">
+                                return <div key={index} className="icon bg-[#121d277a]  flex flex-col items-center justify-center gap-4 rounded shadow h-32 w-32 object-cover overflow-clip">
                                     <img className='object-cover h-16' src={skill.icon} alt={html} />
                                     <p className='text-slate-500 font-bold text-sm'>{skill.title}</p>
                                 </div>
@@ -220,7 +234,7 @@ const Skills = () => {
                         }
                         {
                             active === 4 && other?.map((skill, index) => {
-                                return <div key={index} className="icon bg-[#121d27]  flex flex-col items-center justify-center gap-4 rounded shadow h-32 w-32 object-cover overflow-clip">
+                                return <div key={index} className="icon bg-[#121d277a]  flex flex-col items-center justify-center gap-4 rounded shadow h-32 w-32 object-cover overflow-clip">
                                     <img className='object-cover h-16' src={skill.icon} alt={html} />
                                     <p className='text-slate-500 font-bold text-sm'>{skill.title}</p>
                                 </div>

@@ -5,7 +5,10 @@ import profileImg from '../assets/kamrul1.jpg'
 import { MdKeyboardDoubleArrowRight } from 'react-icons/md';
 import { Link } from 'react-scroll';
 
+const text1 = <p style={{ color: "cyan" }}>I am kamrul islam</p>
+
 const Home = () => {
+
     return (
         <div className='bg-gradient-to-b from-black pt-24 md:pt-0 to-gray-800 w-full md:h-screen py-4' name="Home">
             <div data-aos="fade-right" className="container sm:text-center md:text-left md:flex justify-between items-center h-full gap-4">
@@ -15,6 +18,7 @@ const Home = () => {
                         <TypeAnimation
                             sequence={[
                                 // Same substring at the start will only be typed once, initially
+                                text1,
                                 "I'm a Full Stack Developer",
                                 1000,
                                 "I'm Expert in React,Next",
