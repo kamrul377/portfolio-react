@@ -2,8 +2,11 @@ import React from 'react'
 
 import twitterdemo from '../assets/twitterdemo.png'
 import mortgagecalcdemo from '../assets/mortgagecalc.png'
+import eshop from '../assets/eshop.png'
+import sass from '../assets/sass.png'
+import weather from '../assets/weather.png'
 // import { Link } from 'react-scroll'
-
+import dots from '../assets/blur.png'
 
 const projects = [
   {
@@ -20,24 +23,24 @@ const projects = [
   },
   {
     id: 3,
-    src: twitterdemo,
-    code: "https://github.com/kamrul377/Mortgage_calculator",
-    demo: "https://twitter-design-murex.vercel.app/"
+    src: eshop,
+    code: "https://github.com/kamrul377/E-commerce1",
+    demo: "https://e-commerce-app-five-zeta.vercel.app/"
   },
   {
-    id: 3,
-    src: mortgagecalcdemo,
-    code: "https://github.com/kamrul377/Mortgage_calculator",
-    demo: "https://twitter-design-murex.vercel.app/"
+    id: 4,
+    src: sass,
+    code: "https://github.com/kamrul377/sass-modern",
+    demo: "https://sass-modern.vercel.app/"
   },
   {
-    id: 3,
-    src: twitterdemo,
-    code: "https://github.com/kamrul377/Mortgage_calculator",
-    demo: "https://twitter-design-murex.vercel.app/"
+    id: 5,
+    src: weather,
+    code: "https://github.com/kamrul377/weather_app",
+    demo: "https://weather-app-blond-nine-52.vercel.app/"
   },
   {
-    id: 3,
+    id: 6,
     src: mortgagecalcdemo,
     code: "https://github.com/kamrul377/Mortgage_calculator",
     demo: "https://twitter-design-murex.vercel.app/"
@@ -50,7 +53,7 @@ const Portfolio = () => {
       <div className="container">
 
 
-        <h1 className='text-6xl font-bold text-slate-200 border-b-4 border-gray-600 inline-block my-6'> Portfolio </h1>
+        <h1 className='text-6xl font-bold text-slate-200  border-gray-600 inline-block my-6 relative'> <img className='absolute h-20 w-20 fill-blue-500 animate-ping' src={dots} alt="" /> Portfolio </h1>
 
         <div data-aos="fade-up"
           data-aos-anchor-placement="top-center" className="projects grid sm:grid-cols-2 lg:grid-cols-3 my-3 gap-2 gap-y-16 place-items-center">

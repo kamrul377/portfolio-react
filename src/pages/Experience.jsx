@@ -9,6 +9,7 @@ import mongodblogo from '../assets/mongodb.png'
 import nodejslogo from '../assets/nodejs.png'
 import tailwindlogo from '../assets/tailwind.png'
 import expressjslogo from '../assets/express.png'
+import dots from '../assets/blur.png'
 
 
 const icons = [
@@ -66,7 +67,7 @@ const Experience = () => {
     return (
         <div name="Experience" className='w-full min-h-screen bg-black py-5'>
             <div className="container">
-                <h1 className='text-6xl font-bold text-slate-200 border-b-4 border-gray-600 inline-block my-6'> Experience </h1>
+                <h1 className='text-6xl font-bold text-slate-200 border-b-4 border-gray-600 inline-block my-6 relative'> <img className='absolute h-20 w-20 fill-blue-500 animate-ping' src={dots} alt="" /> Experienc </h1>
 
                 <div data-aos="zoom-in-up" className="skills grid sm:grid-cols-2 lg:grid-cols-3 my-3 gap-2 gap-y-16 place-items-center">
 

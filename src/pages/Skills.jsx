@@ -26,6 +26,7 @@ import figma from '../assets/skills/figma.png'
 import mongodb from '../assets/skills/mongodb.webp'
 import postman from '../assets/skills/postman.png'
 import next from '../assets/skills/nextjs.png'
+import dots from '../assets/blur.png'
 
 const skills = [
     {
@@ -183,7 +184,7 @@ const Skills = () => {
     return (
         <div name="Experience" className='w-full min-h-screen py-5 bg-[rgb(11,19,26)]'>
             <div className="container">
-                <h1 className="text-6xl font-bold border-b-4 border-slate-500 inline-block my-6 text-white">
+                <h1 className="text-6xl font-bold  border-slate-500 inline-block my-6 text-white relative"> <img className='absolute h-20 w-20 fill-blue-500 animate-ping' src={dots} alt="" />
                     Experience
                 </h1>
                 <div className="skills-icons ">

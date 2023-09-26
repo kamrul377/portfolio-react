@@ -14,11 +14,11 @@ const Home = () => {
             <div data-aos="fade-right" className="container sm:text-center md:text-left md:flex justify-between items-center h-full gap-4">
                 <div className="content basis-1/2 flex flex-col gap-6">
 
-                    <div className='my-4'>
+                    <div className='my-4 h-32'>
                         <TypeAnimation
                             sequence={[
                                 // Same substring at the start will only be typed once, initially
-                                text1,
+                                'Hi👋 I am kamrul islam',
                                 "I'm a Full Stack Developer",
                                 1000,
                                 "I'm Expert in React,Next",
