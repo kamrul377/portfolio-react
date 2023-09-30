@@ -41,7 +41,7 @@ const Navbar = () => {
             <ul className='flex'>
                 {
                     tabs.map((i, index) => {
-                        return <li key={index} className='text-gray-400 px-4 hover:cursor-pointer hover:scale-105 duration-200 hidden md:flex hover:text-white'>
+                        return <li key={index} className='text-gray-400 px-4 hover:cursor-pointer hover:scale-105 duration-200 hidden md:flex hover:text-cyan-500'>
                             <Link to={i.link} smooth duration={500}> {i.link} </Link>
                         </li>
                     })
@@ -56,7 +56,7 @@ const Navbar = () => {
                     {tabs && tabs.map((i, index) => {
                         return <li className='text-gray-400 px-4 hover:cursor-pointer hover:scale-105 duration-200 text-center text-2xl'>
 
-                            <Link to={i.link} onClick={()=> setOpen(false)}> {i.link} </Link>
+                            <Link  to={i.link} onClick={()=> setOpen(false)}> {i.link} </Link>
                         </li>
                     })}
                 </ul>

@@ -16,11 +16,11 @@ const Contact = () => {
 
 
                 <div data-aos="fade-left" className="msg-img w-[400px] mx-auto">
-                    <img src={svg} alt="" />
+                    <img className=' rounded shadow-inner' src={svg} alt="" />
                 </div>
-                <form data-aos="fade-right" method='POST' className='flex mx-auto justify-center items-center flex-col p-3 space-y-3 w-[400px] '>
+                <form data-aos="fade-right" method='POST' className='flex mx-auto justify-center items-center flex-col p-3 space-y-3 w-[400px]' action="https://formspree.io/f/xoqojkqq">
 
-                    <h1 className='text-xl font-bold text-gray-200'> Send Us Message.. </h1>
+                    <h1 className='text-xl font-normal italic text-gray-200'>Contact With Me </h1>
 
                     <input className='w-full bg-gray-900 text-base px-3 py-1 rounded shadow text-slate-200 focus:outline-none border border-slate-700  focus:border-blue-400' type="text" name="name" id="" placeholder='Name..' required />
 
@@ -29,7 +29,7 @@ const Contact = () => {
 
                     <textarea className='w-full bg-gray-900 text-base px-3 py-1 rounded shadow text-slate-200 focus:outline-none border border-slate-700 focus:border-blue-400 resize-none' name="text" id="" cols="15" rows="10" placeholder='Write text here..'></textarea>
 
-                    <button className='bg-gradient-to-r from-blue-500 to-purple-500 hover:from-purple-500 hover:to-blue-500 w-full py-1 text-slate-200 rounded'> Submit </button>
+                    <button type='submit' className='bg-gradient-to-r from-blue-500 to-purple-500 hover:from-purple-500 hover:to-blue-500 w-full py-1 text-slate-200 rounded'> Submit </button>
                 </form>
 
 

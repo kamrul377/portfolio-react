@@ -66,11 +66,11 @@ const Portfolio = () => {
 
 
                 <div className="button w-full flex justify-between my-3">
-                  <button className='bg-slate-800 text-white px-8 py-1 rounded'>
+                  <button className='bg-slate-800 hover:bg-inherit text-white px-8 py-1 rounded border border-cyan-500'>
                     <a href={project.demo} target='_blank'> Demo </a>
                   </button>
-                  <button className='bg-slate-800 text-white px-8 py-1 rounded'>
-                    <a href={project.code} target='_blank'> Code </a>
+                  <button className='bg-slate-800 text-white px-8 py-1 rounded border border-cyan-500 hover:bg-inherit'>
+                    <a href={project.code} target='_blank'>  Code </a>
                   </button>
 
                 </div>
