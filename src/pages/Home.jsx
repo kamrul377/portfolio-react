@@ -19,23 +19,22 @@ const Home = () => {
                             sequence={[
                                 // Same substring at the start will only be typed once, initially
                                 'Hi👋 I am kamrul islam',
+                                1000,
                                 "I'm a Full Stack Developer",
                                 1000,
                                 "I'm Expert in React,Next",
                                 1000,
                                 "I'm Expert in Node,Express",
                                 1000,
-                                "I'm Expert in RESTful api",
-                                1000,
                             ]}
-                            speed={150}
+                            speed={250}
                             style={{ fontSize: '60px' }}
                             repeat={Infinity}
-                            className='text-4xl md:text-6xl text-white font-bold'
+                            className='text-4xl md:text-6xl text-cyan-100 font-bold'
                         />
                     </div>
 
-                    <p className='text-gray-500 text-base'> I have 2 years of exprience building and desgining software currently. I love to workon web application using technology like React, Tailwind, Next, Express</p>
+                    <p className='text-gray-500 text-base'> I have 2 years of exprience building and desgining software currently. I love to workon web application using technology like <span className='text-cyan-600 font-bold'>React js, Tailwind css, Next js, Express js</span></p>
 
                     <div className='sm:mx-auto md:ml-0'>
                         <Link to='Portfolio' className='hover:cursor-pointer group text-white px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500 w-fit'> Portfolio
