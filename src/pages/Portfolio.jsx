@@ -25,7 +25,7 @@ const projects = [
     id: 3,
     src: eshop,
     code: "https://github.com/kamrul377/E-commerce1",
-    demo: "https://e-commerce-app-five-zeta.vercel.app/"
+    demo: "https://e-shop-online.vercel.app/"
   },
   {
     id: 4,
