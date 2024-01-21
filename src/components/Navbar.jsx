@@ -36,7 +36,7 @@ const Navbar = () => {
     ]
 
     return (
-        <div className='flex justify-between items-center w-full h-20 text-white fixed bg-black px-4 z-50'>
+        <div className='flex justify-between items-center w-full h-20 text-white fixed bg-[#111] px-4 z-50'>
             <h1 className='font-sign text-5xl ml-2'>Kamrul</h1>
             <ul className='flex'>
                 {

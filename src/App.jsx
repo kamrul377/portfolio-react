@@ -10,18 +10,18 @@ import Experience from './pages/Experience'
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-window.addEventListener('scroll', () => {
-  console.log("scrolling")
-  if (window.screen.height > 1000) {
-    console.log('cross 300')
-  }
-})
+// window.addEventListener('scroll', () => {
+//   console.log("scrolling")
+//   if (window.screen.height > 1000) {
+//     console.log('cross 300')
+//   }
+// })
 
 const App = () => {
-  useEffect(() => {
-    AOS.init();
-    AOS.refresh();
-  }, []);
+  // useEffect(() => {
+  //   AOS.init();
+  //   AOS.refresh();
+  // }, []);
 
   return (
     <div className='overflow-x-hidden'>
@@ -33,6 +33,7 @@ const App = () => {
       {/* <Experience /> */}
       <Skills />
       <Contact />
+      
 
     </div>
   )

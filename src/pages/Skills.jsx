@@ -185,7 +185,7 @@ const Skills = () => {
         <div name="Experience" className='w-full min-h-screen py-5 bg-[rgb(11,19,26)]'>
             <div className="container">
                 <h1 className="text-6xl font-bold  border-slate-500 inline-block my-6 text-white relative"> <img className='absolute h-20 w-20 fill-blue-500 animate-ping' src={dots} alt="" />
-                    Experience
+                    Skills
                 </h1>
                 <div className="skills-icons ">
                     <div className="category flex justify-center w-full md:w-[80%] mx-auto font-[500] gap-1">

@@ -7,6 +7,8 @@ import sass from '../assets/sass.png'
 import weather from '../assets/weather.png'
 // import { Link } from 'react-scroll'
 import dots from '../assets/blur.png'
+import { SiGithub } from "react-icons/si";
+import { AiOutlineEye } from "react-icons/ai";
 
 const projects = [
   {
@@ -49,14 +51,13 @@ const projects = [
 
 const Portfolio = () => {
   return (
-    <div name="Portfolio" className='w-full min-h-screen py-5 bg-gradient-to-br from-[#072227] to-[#111111] '>
+    <div name="Portfolio" className='w-full min-h-screen py-5 bg-[#22092C]'>
       <div className="container">
 
 
         <h1 className='text-6xl font-bold text-slate-200  border-gray-600 inline-block my-6 relative'> <img className='absolute h-20 w-20 fill-blue-500 animate-ping' src={dots} alt="" /> Portfolio </h1>
 
-        <div data-aos="fade-up"
-          data-aos-anchor-placement="top-center" className="projects grid sm:grid-cols-2 lg:grid-cols-3 my-3 gap-2 gap-y-16 place-items-center">
+        <div className="projects grid sm:grid-cols-2 lg:grid-cols-3 my-3 gap-2 gap-y-16 place-items-center">
 
           {
             projects.map((project, i) => (
@@ -65,12 +66,16 @@ const Portfolio = () => {
                 <img src={project.src} alt="" className='rounded cursor-pointer hover:scale-105 duration-300' />
 
 
-                <div className="button w-full flex justify-between my-3">
-                  <button className='bg-slate-800 hover:bg-inherit text-white px-8 py-1 rounded border border-cyan-500'>
-                    <a href={project.demo} target='_blank'> Demo </a>
+                <div className="button w-full flex justify-end my-3 gap-1">
+                  <button className='bg-slate-800 hover:bg-slate-700 text-white px-8 py-1 rounded '>
+                    <a href={project.demo} target='_blank'>
+                      <AiOutlineEye size={25} color='#CBE4DE'/>
+                    </a>
                   </button>
-                  <button className='bg-slate-800 text-white px-8 py-1 rounded border border-cyan-500 hover:bg-inherit'>
-                    <a href={project.code} target='_blank'>  Code </a>
+                  <button className='bg-slate-800 text-white px-8 py-1 rounded hover:bg-slate-700'>
+                    <a href={project.code} target='_blank'>
+                      <SiGithub size={23} color='#CBE4DE'/>
+                    </a>
                   </button>
 
                 </div>

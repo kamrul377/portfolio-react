@@ -15,10 +15,10 @@ const Contact = () => {
             <div className="container bg-transparent">
 
 
-                <div data-aos="fade-left" className="msg-img w-[400px] mx-auto">
+                <div className="msg-img w-[400px] mx-auto">
                     <img className=' rounded shadow-inner' src={svg} alt="" />
                 </div>
-                <form data-aos="fade-right" method='POST' className='flex mx-auto justify-center items-center flex-col p-3 space-y-3 w-[400px]' action="https://formspree.io/f/xoqojkqq">
+                <form method='POST' className='flex mx-auto justify-center items-center flex-col p-3 space-y-3 w-[400px]' action="https://formspree.io/f/xoqojkqq">
 
                     <h1 className='text-xl font-normal italic text-gray-200'>Contact With Me </h1>
 
